@@ -29,7 +29,7 @@ fun main() {
     println("Enter a life Number: ")
     val lives = readLine()!!.toInt()
 
-    var isGameOver = (lives < 1)
+    val isGameOver = (lives < 1)
 
     if (isGameOver) {
         println("Game over!")
